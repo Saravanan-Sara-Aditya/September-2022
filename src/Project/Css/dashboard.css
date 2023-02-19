@@ -1,0 +1,23 @@
+.dashboard{
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+.list1{
+background-color: blue;
+}
+.list2{
+background-color: chartreuse;
+}
+.carousel-item img{
+    padding-top: 5px;
+    /* filter: brightness(0.5); */
+    height: 100vh;
+    width: 100%;
+}
+.carousel-caption{
+    bottom: 17.75rem;
+    font-size: 27px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family:'Trebuchet MS';
+}

@@ -1,0 +1,49 @@
+.parent{
+    margin-top: 20px;
+    /* margin-left: -34px; */
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+    padding-left: 10px;
+    /* gap: 2px; */
+    /* border: 2px solid red; */
+}
+.parent div{
+    width: 200px;
+}
+h1{
+    text-align: justify;
+    margin-top: 20px;
+    font-family: 'Gill Sans';
+    text-decoration: underline;
+}
+.parent img{
+    width: 323px;
+    height: 280px;
+    /* border: 10px solid gainsboro; */
+}
+.parent p{
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Gill Sans';
+    text-decoration: underline;
+}
+.parent button{
+    color: #fff;
+    margin-left: 211px;
+    /* border-radius: 25px; */
+    margin-top: 5px;
+    width: 80px;
+    border: none;
+}
+.see_more{
+    width: 218px;
+    text-align: center;
+    margin-left: 579px;
+    margin-top: 45px;
+}
+td{
+    border-width: 5px;
+    border-style: solid;
+    border-color: gainsboro;
+
+}
