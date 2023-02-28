@@ -1,26 +1,21 @@
 import React from "react";
-import { Link, BrowserRouter, Switch, Route } from "react-router-dom";
-import ArrayExample from "./Project/component/Functional Component/ArrayExample";
-import Carousel from "./Project/component/Projects/Carouselpart";
-import Header from "./Project/component/Projects/Header";
-import Register from "./Project/component/Projects/Register.js"
-import Login_page from "./Project/component/Projects/LoginPage";
+import Cart from "./FrontEnd-Project/Cart"
+import { useSelector } from "react-redux";
+import Routers from "./Router/Routers";
 function Project() {
+
+  const showCart = useSelector(state => state.cartUi.cartIsVisible)
+
   return (
+
     <>
-      {/* <BrowserRouter>
-        <Switch>
-          <Route path='/login_page'>
-            <Login_page />
-          </Route>
-          <Route path='/Register_page'>
-            <Register />
-          </Route>
-        </Switch>
-      </BrowserRouter> */}
-      <Header/>
-      <Carousel/>
-      <ArrayExample/>
+      {
+        showCart && <Cart />
+      }
+      <div>
+      <Routers/>
+      </div>
+      
     </>
   )
 }

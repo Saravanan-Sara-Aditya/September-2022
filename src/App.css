@@ -2,6 +2,7 @@
   text-align: center;
 }
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,15 +37,7 @@
     transform: rotate(360deg);
   }
 }
-/* .grid{
-  display: grid;
-  grid-template-columns: 30% 40% 30%;
-}
-#parent div{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-} */
+
 .form_container{
   background-color: #282c34;
 }
